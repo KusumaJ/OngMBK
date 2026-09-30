@@ -1,0 +1,259 @@
+{
+  "site": {
+    "name": "ONG MBK TU79 EBA18",
+    "footer": "Migrated from Weebly by your favorite sis",
+    "authorName": "Kusuma",
+    "authorUrl": "https://linkedin.com/in/kusumaj/",
+    "sourceUrl": "https://github.com/KusumaJ/OngMBK"
+  },
+  "navigation": [
+    {
+      "label": "Home",
+      "href": "index.html"
+    },
+    {
+      "label": "M.4",
+      "children": [
+        {
+          "label": "M.4/1",
+          "href": "m41.html"
+        },
+        {
+          "label": "M.4/2",
+          "href": "m42.html"
+        }
+      ]
+    },
+    {
+      "label": "M.5",
+      "children": [
+        {
+          "label": "M.5/1",
+          "href": "m51.html"
+        },
+        {
+          "label": "M.5/2",
+          "href": "m52.html"
+        }
+      ]
+    },
+    {
+      "label": "M.6",
+      "children": [
+        {
+          "label": "M.6/1",
+          "href": "m61.html"
+        },
+        {
+          "label": "M.6/2",
+          "href": "m62.html"
+        }
+      ]
+    },
+    {
+      "label": "Freshmen",
+      "children": [
+        {
+          "label": "Freshmen Fall",
+          "href": "freshmen-fall.html"
+        },
+        {
+          "label": "Freshmen Spring",
+          "href": "freshmen-spring.html"
+        }
+      ]
+    },
+    {
+      "label": "Sophomore",
+      "children": [
+        {
+          "label": "Sophomore Fall",
+          "href": "sophomore-fall.html"
+        },
+        {
+          "label": "Sophomore Spring",
+          "href": "sophomore-spring.html"
+        },
+        {
+          "label": "Sophomore Summer",
+          "href": "sophomore-summer.html"
+        }
+      ]
+    },
+    {
+      "label": "Junior/Senior",
+      "children": [
+        {
+          "label": "Compulsory Courses",
+          "href": "compulsory-courses.html"
+        },
+        {
+          "label": "Economic Theory",
+          "href": "economic-theory.html"
+        },
+        {
+          "label": "Quantitative Economics",
+          "href": "quantitative-economics.html"
+        },
+        {
+          "label": "Applied Economics",
+          "href": "applied-economics.html"
+        }
+      ]
+    },
+    {
+      "label": "Work/Life",
+      "href": "worklife.html"
+    },
+    {
+      "label": "Contact",
+      "href": "contact.html"
+    }
+  ],
+  "pages": [
+    {
+      "route": "applied-economics.html",
+      "title": "Applied Economics - ONG MBK TU79 EBA18",
+      "bodyClass": "header-page  wsite-page-applied-economics  full-width-on  wsite-theme-light",
+      "content": "content/applied-economics.html"
+    },
+    {
+      "route": "compulsory-courses.html",
+      "title": "Compulsory Courses - ONG MBK TU79 EBA18",
+      "bodyClass": "header-page  wsite-page-compulsory-courses  full-width-on  wsite-theme-light",
+      "content": "content/compulsory-courses.html"
+    },
+    {
+      "route": "contact.html",
+      "title": "Contact - ONG MBK TU79 EBA18",
+      "bodyClass": "header-page  wsite-page-contact  full-width-on  wsite-theme-light",
+      "content": "content/contact.html"
+    },
+    {
+      "route": "economic-theory.html",
+      "title": "Economic Theory - ONG MBK TU79 EBA18",
+      "bodyClass": "header-page  wsite-page-economic-theory  full-width-on  wsite-theme-light",
+      "content": "content/economic-theory.html"
+    },
+    {
+      "route": "freshmen-fall.html",
+      "title": "Freshmen Fall - ONG MBK TU79 EBA18",
+      "bodyClass": "header-page  wsite-page-freshmen-fall  full-width-on  wsite-theme-light",
+      "content": "content/freshmen-fall.html"
+    },
+    {
+      "route": "freshmen-spring.html",
+      "title": "Freshmen Spring - ONG MBK TU79 EBA18",
+      "bodyClass": "header-page  wsite-page-freshmen-spring  full-width-on  wsite-theme-light",
+      "content": "content/freshmen-spring.html"
+    },
+    {
+      "route": "freshmen.html",
+      "title": "Freshmen - ONG MBK TU79 EBA18",
+      "bodyClass": "header-page  wsite-page-freshmen  full-width-on  wsite-theme-light",
+      "content": "content/freshmen.html"
+    },
+    {
+      "route": "index.html",
+      "title": "ONG MBK TU79 EBA18 - Summative&amp;Final Cheatnote - ONG MBK",
+      "bodyClass": "header-page  wsite-page-index  full-width-on  wsite-theme-light",
+      "content": "content/index.html"
+    },
+    {
+      "route": "juniorsenior.html",
+      "title": "Junior/Senior - ONG MBK TU79 EBA18",
+      "bodyClass": "header-page  wsite-page-juniorsenior  full-width-on  wsite-theme-light",
+      "content": "content/juniorsenior.html"
+    },
+    {
+      "route": "m4.html",
+      "title": "M.4 - ONG MBK TU79 EBA18",
+      "bodyClass": "header-page  wsite-page-m4  full-width-on  wsite-theme-light",
+      "content": "content/m4.html"
+    },
+    {
+      "route": "m41.html",
+      "title": "M.4/1 - ONG MBK TU79 EBA18",
+      "bodyClass": "header-page  wsite-page-m41  full-width-on  wsite-theme-light",
+      "content": "content/m41.html"
+    },
+    {
+      "route": "m42.html",
+      "title": "M.4/2 - ONG MBK TU79 EBA18",
+      "bodyClass": "header-page  wsite-page-m42  full-width-on  wsite-theme-light",
+      "content": "content/m42.html"
+    },
+    {
+      "route": "m5.html",
+      "title": "M.5 - ONG MBK TU79 EBA18",
+      "bodyClass": "header-page  wsite-page-m5  full-width-on  wsite-theme-light",
+      "content": "content/m5.html"
+    },
+    {
+      "route": "m51.html",
+      "title": "M.5/1 - ONG MBK TU79 EBA18",
+      "bodyClass": "header-page  wsite-page-m51  full-width-on  wsite-theme-light",
+      "content": "content/m51.html"
+    },
+    {
+      "route": "m52.html",
+      "title": "M.5/2 - ONG MBK TU79 EBA18",
+      "bodyClass": "header-page  wsite-page-m52  full-width-on  wsite-theme-light",
+      "content": "content/m52.html"
+    },
+    {
+      "route": "m6.html",
+      "title": "M.6 - ONG MBK TU79 EBA18",
+      "bodyClass": "header-page  wsite-page-m6  full-width-on  wsite-theme-light",
+      "content": "content/m6.html"
+    },
+    {
+      "route": "m61.html",
+      "title": "M.6/1 - ONG MBK TU79 EBA18",
+      "bodyClass": "header-page  wsite-page-m61  full-width-on  wsite-theme-light",
+      "content": "content/m61.html"
+    },
+    {
+      "route": "m62.html",
+      "title": "M.6/2 - ONG MBK TU79 EBA18",
+      "bodyClass": "header-page  wsite-page-m62  full-width-on  wsite-theme-light",
+      "content": "content/m62.html"
+    },
+    {
+      "route": "quantitative-economics.html",
+      "title": "Quantitative Economics - ONG MBK TU79 EBA18",
+      "bodyClass": "header-page  wsite-page-quantitative-economics  full-width-on  wsite-theme-light",
+      "content": "content/quantitative-economics.html"
+    },
+    {
+      "route": "sophomore-fall.html",
+      "title": "Sophomore Fall - ONG MBK TU79 EBA18",
+      "bodyClass": "header-page  wsite-page-sophomore-fall  full-width-on  wsite-theme-light",
+      "content": "content/sophomore-fall.html"
+    },
+    {
+      "route": "sophomore-spring.html",
+      "title": "Sophomore Spring - ONG MBK TU79 EBA18",
+      "bodyClass": "header-page  wsite-page-sophomore-spring  full-width-on  wsite-theme-light",
+      "content": "content/sophomore-spring.html"
+    },
+    {
+      "route": "sophomore-summer.html",
+      "title": "Sophomore Summer - ONG MBK TU79 EBA18",
+      "bodyClass": "header-page  wsite-page-sophomore-summer  full-width-on  wsite-theme-light",
+      "content": "content/sophomore-summer.html"
+    },
+    {
+      "route": "sophomore.html",
+      "title": "Sophomore - ONG MBK TU79 EBA18",
+      "bodyClass": "header-page  wsite-page-sophomore  full-width-on  wsite-theme-light",
+      "content": "content/sophomore.html"
+    },
+    {
+      "route": "worklife.html",
+      "title": "Work/Life - ONG MBK TU79 EBA18",
+      "bodyClass": "header-page  wsite-page-worklife  full-width-on  wsite-theme-light",
+      "content": "content/worklife.html"
+    }
+  ]
+}

@@ -6,8 +6,13 @@ const path = require('path');
 
 const root = path.resolve(__dirname, '..');
 const read = (file) => fs.readFileSync(path.join(root, file), 'utf8');
-const write = (file, value) => fs.writeFileSync(path.join(root, file), value, 'utf8');
 const version = (value) => crypto.createHash('sha1').update(value).digest('hex').slice(0, 10);
+const outputDirectory = path.join(root, 'public');
+const writeOutput = (file, value) => {
+  const destination = path.join(outputDirectory, file);
+  fs.mkdirSync(path.dirname(destination), { recursive: true });
+  fs.writeFileSync(destination, value, 'utf8');
+};
 
 const site = JSON.parse(read('data/site.json'));
 const pageTemplate = read('templates/page.html');
@@ -33,6 +38,12 @@ const componentSource = componentTemplate.replace('__SITE_DATA__', JSON.stringif
 const componentVersion = version(componentSource);
 const stylesheetVersion = version(read('files/main_style.css'));
 
+fs.rmSync(outputDirectory, { recursive: true, force: true });
+fs.mkdirSync(outputDirectory, { recursive: true });
+fs.cpSync(path.join(root, 'files'), path.join(outputDirectory, 'files'), { recursive: true });
+fs.cpSync(path.join(root, 'uploads'), path.join(outputDirectory, 'uploads'), { recursive: true });
+['robots.txt', 'sitemap.xml'].forEach((file) => fs.copyFileSync(path.join(root, file), path.join(outputDirectory, file)));
+
 site.pages.forEach((page) => {
   assert(/^[\w-]+\.html$/.test(page.route), `Unsafe page route: ${page.route}`);
   const content = read(page.content);
@@ -46,8 +57,8 @@ site.pages.forEach((page) => {
     .replace('files/theme/files/site-components.js?v=1', `files/theme/files/site-components.js?v=${componentVersion}`);
 
   assert(!output.includes('{{'), `Unresolved template token in ${page.route}`);
-  write(page.route, output);
+  writeOutput(page.route, output);
 });
 
-write('files/theme/files/site-components.js', componentSource);
-console.log(`Built ${site.pages.length} pages.`);
+writeOutput('files/theme/files/site-components.js', componentSource);
+console.log(`Built ${site.pages.length} pages in public/.`);

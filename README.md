@@ -16,4 +16,6 @@ Run:
 npm run build
 ```
 
-This regenerates the root HTML files, including `index.html`, `m41.html`, and every other published route. Do not edit those generated root pages directly; edit the source files above and build again.
+This regenerates `public/`, including `public/index.html`, `public/m41.html`, and every other published route. Vercel deploys that folder. Do not edit generated pages directly; edit the source files above and build again.
+
+For a local file preview, open `public/index.html` after building.
